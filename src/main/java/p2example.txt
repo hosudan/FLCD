@@ -1,0 +1,8 @@
+{
+Int I, gcd,n1,n2;
+Read (n1,n2);
+I = 1;
+While ((I<=n1) && (I<=n2))
+{ if((n1%i==0) && (n2%i==0)) {gcd = i;} I=I+1;}
+print(gcd);
+}

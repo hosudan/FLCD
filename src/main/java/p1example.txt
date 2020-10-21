@@ -1,0 +1,9 @@
+{
+int a,b,c,min,max;
+read (a,b,c);
+ If(a < b) { min = a; max = b; }
+ Else { min = b; max = a;}
+ If(min > c) { min = c; }
+ If(max<c) {max= c;}
+print(min); print(max);
+}
